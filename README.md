@@ -32,6 +32,7 @@ Currently there are ten applications incorporated in CalPred. These different ap
 
 These different applications are organised to form a workflow as depicted in the figure below. To know more about the workflow and the validity of the models see the User documentation. 
 
+![Calpred workflow](/images/model.JPG)
 
 ## CalPred citation
 
