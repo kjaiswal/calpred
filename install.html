@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Install</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<div align="center">
+  <div align="left">
+    <p><font size="5">Installation of server (Windows).</font></p>
+    <p>CalPred will be installed in-place but it requires some external software 
+      be installed in your system. Those are listed below:</p>
+  </div>
+</div>
+<ul>
+  <li>The redistributable microweb server (<a href="http://www.indigostar.com/download/microweb-1.31.zip">link</a>). 
+  </li>
+  <li> 
+    <div align="center"> 
+      <div align="left"> The NCBI BLAST-GP program. (<a href="ftp://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/blast-2.2.15-ia32-win32.exe">link</a>).</div>
+    </div>
+  </li>
+  <li> 
+    <div align="center"> 
+      <div align="left"> PEPSTATS program of EMBOSSWIN ( <a href="http://www.interactive-biosoftware.com/embosswin/embosswin-0.8-setup.exe">download 
+        link </a>) package.</div>
+    </div>
+  </li>
+  <li> 
+    <div align="center"> 
+      <div align="left"> And svm_classify program of SVM<sup>light</sup> ( <a href="http://svmlight.joachims.org">link</a> 
+        ). </div>
+    </div>
+  </li>
+</ul>
+<div align="center"> 
+  <div align="left"> 
+    <p><br>
+      These must be installed prior to installation of CalPred server and the 
+      users must conform to licenses of these softwares before using them. </p>
+    <p><strong>Step 1:</strong>  Uncompress 
+      the downloaded CalPred server by using any of the freely avaliable programs 
+      such as Winrar / Winzip into &quot;yourfolder&quot;</p>
+    <p><strong>Step 2</strong>: Download the microweb server that comes under non-redistributable license and unzip it. </p>
+    <p><strong>Step 3 </strong>: Now in the CalPred server folder there will be 
+      two sub - folders &quot;cgi-bin&quot; and &quot;htdocs&quot; copy the contents 
+      of these folders into the same respective folder in microweb server.</p>
+    <p><strong>Step 4 </strong>: BLAST-GP is enhanced BLAST, which supports gaps, 
+      developed by the NCBI software group. There is an executable which is necessary 
+      for CalPred i.e. blastgp.exe. Please copy &quot;ncbi.ini&quot; file, &quot;data&quot; 
+      folder and &quot;blastgp.exe&quot; file into &quot;yourfolder\microweb-1.31\cgi-bin\&quot;. 
+      Make sure that &quot;ncbi.ini&quot; points to &quot;data&quot; folder's 
+      location i.e. edit second line as Data=&quot;data&quot;. 
+    <p><strong>Step 5:</strong> Download EMBOSSWIN and install it on you computer. 
+      The EMBOSSWIN is installed by default, in C:/ drive of your computer. If 
+      it does'nt, then change the path of installation to &quot;C:\EMBOSSwin&quot;. 
+      If due to any reasons you are unable to do so, then change these enviornmental 
+      variable in &quot;prog.cgi&quot; (in 'yourfolder\microweb-1.31\cgi-bin\') 
+      script:</p>
+  </div>
+  <div align="left"> 
+    <p>$ENV{'EMBOSSWIN'}=&quot;C:/EMBOSSwin&quot;; to $ENV{'EMBOSSWIN'}=&quot;your_path 
+      &quot;;<br>
+      $ENV{'EMBOSS_DATA'}=&quot;C:/EMBOSSwin/data&quot;; to $ENV{'EMBOSS_DATA'}=&quot;your_path/data&quot;;<br>
+      $ENV{'Path'}=&quot;C:/EMBOSSwin&quot;; to $ENV{'Path'}=&quot;your_path&quot;;</p>
+    <p>Copy &quot;pepstats.exe&quot; from &quot;your_path &quot; to &quot;yourfolder\microweb-1.31\cgi-bin\&quot;.</p>
+    <p><strong>Step 6 </strong>: Download SVM<sup>light</sup> from its home page 
+      (freely available for non-commercial use) and place &quot;svm_classify.exe&quot; 
+      into &quot;yourfolder\microweb-1.31\cgi-bin\&quot; directory. If everything 
+      goes well, your server should be ready for use now. Start the server using 
+      the microweb icon. </p>
+    <p><strong>Note: </strong></p>
+  </div>
+</div>
+<ul>
+  <li> 
+    <div align="center"> 
+      <div align="left">At the start of server, there might be a security warning 
+        in the iexplorer's (if you using it) information bar just right click 
+        that bar and check the &quot;Allow this page to access my computer&quot; 
+        option. This will redirect you to server homepage. </div>
+    </div>
+  </li>
+</ul>
+<div align="center"> 
+  <div align="left"> 
+    <hr>
+  </div>
+</div>
+</body>
+</html>
