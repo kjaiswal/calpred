@@ -1,10 +1,8 @@
-
-
 # About CalPred
 
 ## Overview
  
- CalPred is a "tool for EF-hand calcium binding protein prediction and calcium binding region identification" using machine learning techniques. It is a free web based software package and is accessible via world wide web from various platforms. It integrates a range of currently available open source and / or free software packages such as SNNS, EMBOSS and SVM<sup>light</sup>, Cygwin and Microweb server for the purpose of anlysing the protein nature and identification of the calcium binding regions in the given protein. CalPred Server is available for free download as a portable server to promote open source spirit and to reduce the load on our servers.
+CalPred is a "tool for EF-hand calcium binding protein prediction and calcium binding region identification" using machine learning techniques. It is a free web based software package and is accessible via world wide web from various platforms. It integrates a range of currently available open source and / or free software packages such as SNNS, EMBOSS and SVM<sup>light</sup>, Cygwin and Microweb server for the purpose of anlysing the protein nature and identification of the calcium binding regions in the given protein. CalPred Server is available for free download as a portable server to promote open source spirit and to reduce the load on our servers.
 
 
 ## CalPred key features: Usability of program.
@@ -17,7 +15,7 @@ The key features of CalPred include:
 - It is free of charge. 
 - It is downloadable as a open source project in form of standalone portable server for in-house use.
 
-##	What are the different applications and how are they organised?
+## What are the different applications and how are they organised?
 
 Currently there are ten applications incorporated in CalPred. These different applications are: 
 
@@ -39,6 +37,6 @@ These different applications are organised to form a workflow as depicted in the
 
 "CalPred: A tool for EF-hand calcium binding protein prediction and calcium binding region identification." Jaiswal, K.; Kumar, C.; and Naik, P. K. Department of Bioinformatics and Biotechnology. Jaypee University of Information Technology, India. 
 
-##	Disclaimer
+## Disclaimer
 
 This software is free only for non-commercial use. It must not be distributed as whole without prior permission of the author but some parts of the software can be redistributed and / or modified as stated in the License. The author is not responsible for implications from the use of this software.
