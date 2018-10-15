@@ -1,15 +1,13 @@
-<font color="#000000" size="6">About CalPred</font> 
 
-<font size="5">Overveiw</font>
+
+# About CalPred
+
+## Overview
  
  CalPred is a "tool for EF-hand calcium binding protein prediction and calcium binding region identification" using machine learning techniques. It is a free web based software package and is accessible via world wide web from various platforms. It integrates a range of currently available open source and / or free software packages such as SNNS, EMBOSS and SVM<sup>light</sup>, Cygwin and Microweb server for the purpose of anlysing the protein nature and identification of the calcium binding regions in the given protein. CalPred Server is available for free download as a portable server to promote open source spirit and to reduce the load on our servers.
 
 
-<div align="left">
-	<font color="#000000" size="5">
-		CalPred key features: Usability of program.
-	</font>
-</div>
+## CalPred key features: Usability of program.
 
 The key features of CalPred include:
 
@@ -19,10 +17,9 @@ The key features of CalPred include:
 - It is free of charge. 
 - It is downloadable as a open source project in form of standalone portable server for in-house use.
 
-<font color="#000000" size="5">
-	What are the different applications and how are they organised?</font> 
+##	What are the different applications and how are they organised?
 
-Currenty there are ten applications incooperated in CalPred. These different applications are: 
+Currently there are ten applications incorporated in CalPred. These different applications are: 
 
 - ANN<sub>pepstats</sub> : It takes protein properties from PEPSTATS module of EMBOSS package as input and queries a neural network model of architecture (51-4-1) to predict the nature of protein i.e. whether its calcium binding or not.
 - ANN<sub>binary</sub> : It takes a protein sequence as input and encodes it in binary format (for more info. see user docs) and queries a neural network model of architecture (260-20-1) to predict the nature of a particular amino acid residue.
@@ -38,11 +35,10 @@ Currenty there are ten applications incooperated in CalPred. These different app
 These different applications are organised to form a workflow as depicted in the figure below. To know more about the workflow and the validity of the models see the User documentation. 
 
 
-<font color="#000000" size="5">CalPred citation.</font> 
+## CalPred citation
 
 "CalPred: A tool for EF-hand calcium binding protein prediction and calcium binding region identification." Jaiswal, K.; Kumar, C.; and Naik, P. K. Department of Bioinformatics and Biotechnology. Jaypee University of Information Technology, India. 
 
-<font color="#000000" size="5">
-	Disclaimer
-</font>
+##	Disclaimer
+
 This software is free only for non-commercial use. It must not be distributed as whole without prior permission of the author but some parts of the software can be redistributed and / or modified as stated in the License. The author is not responsible for implications from the use of this software.
